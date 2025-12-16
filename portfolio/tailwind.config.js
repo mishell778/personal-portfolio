@@ -15,8 +15,11 @@ module.exports = {
         philosopher: ['Philosopher', 'sans-serif'], 
       },
       backgroundImage: {
-        'animated-gradient': 'linear-gradient(270deg, #ede7e7ff, #deccd8ff,  #bcb7bcff)', 
-        // 'animated-gradient': 'linear-gradient(270deg, #fed6f1ff, #ddd8f5ff, #f2ead3ff)'
+        'animated-gradient': 'linear-gradient(270deg, #ede7e7ff, #e9bddaff,  #ece8cfff)',
+        // 'animated-gradient': 'linear-gradient(270deg, #ede7e7ff, #e9bddaff,  #d4b4e7ff)', white, pink, purple 
+        // 'animated-gradient': 'linear-gradient(270deg, #ede7e7ff, #e9bddaff,  #ece8cfff)', white, pink, yellow
+        // 'animated-gradient': 'linear-gradient(270deg, #fed6f1ff, #ddd8f5ff, #f2ead3ff)' 
+        // 'animated-gradient': 'linear-gradient(270deg, #ede7e7ff, #deccd8ff,  #bcb7bcff)'
       },
       backgroundSize: {
         '400%': '400% 400%',

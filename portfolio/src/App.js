@@ -1,41 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import './mainPage';
-import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import MainPage from './mainPage';
+import ProjectsPage from './projectsPage';
+import InfoPage from './infoPage';
+import ContactPage from './contactPage';
+import ResumePage from './resumePage';
 
-/*
+// <Route path="/projectsPage" element={<Projects />} />
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<MainPage />} />
+      <Route path="/projectsPage" element={<ProjectsPage />} />
+      <Route path="/infoPage" element={<InfoPage />} />
+      <Route path="/contactPage" element={<ContactPage />} />
+      <Route path="/resumePage" element={<ResumePage />} />
+    </Routes>
   );
-}*/
-
-function App() {
-  return <MainPage/>
-  // return (
-  //   <div className="text-center mt-10">
-  //     <h1 className="text-4xl font-bold underline text-blue-600">
-  //       Hello, Tailwind CSS!
-  //     </h1>
-  //     <p className="mt-4 text-gray-700">Your Tailwind setup is working.</p>
-  //   </div>
-  // );
 }
 
 export default App;
