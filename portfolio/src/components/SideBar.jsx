@@ -8,7 +8,7 @@ export default function Sidebar() {
         href="https://www.github.com/mishell-cardenas"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-black hover:text-blue-500 transition"
+        className="text-black hover:text-pink-400 transition"
       >
         <FaGithub size={28} />
       </a>
@@ -17,14 +17,14 @@ export default function Sidebar() {
         href="https://www.linkedin.com/in/mishell-cardenas/"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-black hover:text-blue-500 transition"
+        className="text-black hover:text-pink-400 transition"
       >
         <FaLinkedinIn size={28} />
       </a>
 
       <a
         href="mailto:cardenasespinosa.m@northeastern.edu"
-        className="text-black hover:text-blue-500 transition"
+        className="text-black hover:text-pink-400 transition"
       >
         <MdEmail size={28} />
       </a>
