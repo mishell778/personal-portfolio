@@ -1,40 +1,31 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        display: ['"Playfair Display"', 'serif'],
-        poppins: ['Poppins', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
-        quicksand: ['Quicksand', 'sans-serif'],
-        bodoni: ['Bodoni Moda', 'sans-serif'],
-        abel: ['Abel', 'sans-serif'],
-        philosopher: ['Philosopher', 'sans-serif'], 
+        display: ['"Playfair Display"', "serif"],
+        poppins: ["Poppins", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        quicksand: ["Quicksand", "sans-serif"],
+        bodoni: ["Bodoni Moda", "sans-serif"],
+        abel: ["Abel", "sans-serif"],
+        philosopher: ["Philosopher", "sans-serif"],
+        sans: ["Inter", "ui-sans-serif", "system-ui"],
+        display2: ['Cormorant', 'serif'],
+        cursive: ['Petit Script', 'cursive'],
+        ballet: ['Ballet', 'cursive'],
+        luxurious: ['"Luxurious Script"', 'cursive'],
+        formal: ['"Petit Formal Script"', 'cursive'],
       },
       backgroundImage: {
-        'animated-gradient': 'linear-gradient(270deg, #ede7e7ff, #e9bddaff,  #ece8cfff)',
-        // 'animated-gradient': 'linear-gradient(270deg, #ede7e7ff, #e9bddaff,  #d4b4e7ff)', white, pink, purple 
-        // 'animated-gradient': 'linear-gradient(270deg, #ede7e7ff, #e9bddaff,  #ece8cfff)', white, pink, yellow
-        // 'animated-gradient': 'linear-gradient(270deg, #fed6f1ff, #ddd8f5ff, #f2ead3ff)' 
-        // 'animated-gradient': 'linear-gradient(270deg, #ede7e7ff, #deccd8ff,  #bcb7bcff)'
-      },
-      backgroundSize: {
-        '400%': '400% 400%',
-      },
-      animation: {
-        'gradientShift': 'gradientShift 10s ease infinite',
-      },
-      keyframes: {
-        gradientShift: {
-          '0%, 100%': { 'background-position': '0% 50%' },
-          '50%': { 'background-position': '100% 50%' },
-        },
+        "mesh-gradient": `
+        radial-gradient(at 15% 20%, #C9D8F6 0%, transparent 60%),
+        radial-gradient(at 80% 70%, #E6EAF9 0%, transparent 60%),
+        radial-gradient(at 30% 75%, #F6EEDB 0%, transparent 60%)
+        `,
       },
     },
   },
   plugins: [],
-}
-
+};

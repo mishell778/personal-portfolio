@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.app-content {
+  position: relative;
+  z-index: 10; 
+}
+
+.star-speck {
+  position: absolute;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+  animation-name: twinkle;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  transform: translateZ(0);
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.15;
+    transform: scale(0.8);
+    filter: blur(0.2px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.35);
+    filter: blur(0px);
+  }
+}
