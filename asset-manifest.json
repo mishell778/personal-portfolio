@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.bbb6fbff.css",
+    "main.js": "/personal-portfolio/static/js/main.7a54d539.js",
+    "static/js/453.ad7768ec.chunk.js": "/personal-portfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/about_me4.png": "/personal-portfolio/static/media/about_me4.a4cd33606b5d3da156c3.png",
+    "static/media/mb3.png": "/personal-portfolio/static/media/mb3.0651406a21cc8a0713e6.png",
+    "static/media/personal_portfolio_1.png": "/personal-portfolio/static/media/personal_portfolio_1.580cfe5d2334a8008d3e.png",
+    "static/media/mb1.png": "/personal-portfolio/static/media/mb1.f06df8b73ffcea569180.png",
+    "static/media/personal_portfolio_2.png": "/personal-portfolio/static/media/personal_portfolio_2.0773e8627cc383823e3d.png",
+    "static/media/mb8.png": "/personal-portfolio/static/media/mb8.b40ea3500b2b4b576180.png",
+    "static/media/mb2.png": "/personal-portfolio/static/media/mb2.4d54edf45e438e507696.png",
+    "static/media/mb5.png": "/personal-portfolio/static/media/mb5.3797eef0de6aab16cd02.png",
+    "static/media/mb4.png": "/personal-portfolio/static/media/mb4.986888cffa33f3c39f2d.png",
+    "static/media/mb7.png": "/personal-portfolio/static/media/mb7.5f13f7834d3c4191207e.png",
+    "static/media/personal_portfolio_3.png": "/personal-portfolio/static/media/personal_portfolio_3.dec1614bc6516a3684a0.png",
+    "static/media/mb6.png": "/personal-portfolio/static/media/mb6.fb211a2d40c4a28ac39f.png",
+    "static/media/personal_portfolio_4.png": "/personal-portfolio/static/media/personal_portfolio_4.3fd49f31680fd3e7c593.png",
+    "static/media/personal_portfolio_6.png": "/personal-portfolio/static/media/personal_portfolio_6.5f5a632f20b1bf1a1332.png",
+    "static/media/personal_portfolio_5.png": "/personal-portfolio/static/media/personal_portfolio_5.fb352a9f952ee5e0ca02.png",
+    "static/media/sap2.png": "/personal-portfolio/static/media/sap2.742fa2cb6c9dc22bf898.png",
+    "static/media/sap1.png": "/personal-portfolio/static/media/sap1.7486a41fbb2061c284e8.png",
+    "static/media/sap3.png": "/personal-portfolio/static/media/sap3.958ca5412048ea2e0df2.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.bbb6fbff.css.map": "/personal-portfolio/static/css/main.bbb6fbff.css.map",
+    "main.7a54d539.js.map": "/personal-portfolio/static/js/main.7a54d539.js.map",
+    "453.ad7768ec.chunk.js.map": "/personal-portfolio/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbb6fbff.css",
+    "static/js/main.7a54d539.js"
+  ]
+}
